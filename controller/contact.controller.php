@@ -1,4 +1,7 @@
 <?php
+ini_set('SMTP', 'smtp-relay.gmail.com');
+ini_set('smtp_port', 25);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupérer les données du formulaire
     $name = htmlspecialchars($_POST['name']);
