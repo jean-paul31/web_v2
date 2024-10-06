@@ -2,7 +2,7 @@
 require "controller/header.php";
 require "view/navbar.php";
 
-require "view/home.php";
+header('Location: view\home.php');
 //$url='';
 
 //if (isset($_GET['url']))   

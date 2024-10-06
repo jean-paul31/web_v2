@@ -9,10 +9,10 @@
         </div>
             <div class="offcanvas-body">
                 <ul>
-                    <li><a href="home"><i class="fas fa-home"></i> Accueil</a></li>
-                    <li><a href="propos"><i class="fas fa-book-open"></i> A propos</a></li>
-                    <li><a href="galerie"><i class="fas fa-camera"></i> Galerie</a></li>
-                    <li><a href="contact"><i class="far fa-address-card"></i> Contact</a></li>
+                    <li><a href="..\index.php"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="propos.php"><i class="fas fa-book-open"></i> A propos</a></li>
+                    <li><a href="galerie.php"><i class="fas fa-camera"></i> Galerie</a></li>
+                    <li><a href="contact.php"><i class="far fa-address-card"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
