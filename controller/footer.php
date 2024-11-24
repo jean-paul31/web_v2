@@ -5,16 +5,16 @@
         <ul>
             <li>
                 <a href="https://www.facebook.com/jeanpaul.andrei" target="_blank">
-                    <img src="..\view\assets\facebook.png" alt="" width="70" height="70">
+                    <img src="view\assets\facebook.png" alt="" width="70" height="70">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/jean-paulandrei/" target="_blank">
-                    <img src="..\view\assets\linkedin.png" alt="" width="70" height="70">
+                    <img src="view\assets\linkedin.png" alt="" width="70" height="70">
                 </a>
             </li>
             <li>
-                <a href="https://github.com/jean-paul31" target="_blank"><img src="..\view\assets\github.png" alt="" width="70" height="70"></a>
+                <a href="https://github.com/jean-paul31" target="_blank"><img src="view\assets\github.png" alt="" width="70" height="70"></a>
             </li>
         </ul>
     </div>

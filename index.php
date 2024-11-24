@@ -1,9 +1,9 @@
 <?php
-require "controller/header.php";
+require "controller\header.php";
 // require "view/navbar.php";
 
-header('Location: view\home.php');
-//$url='';
+// header('Location: view\home.php');
+$url='';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
@@ -35,7 +35,4 @@ switch ($page) {
         // echo "Page non trouv�e";
         break;
 }
-
-
-
-require "controller/footer.php";
+require "controller\\footer.php";

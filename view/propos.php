@@ -1,7 +1,4 @@
-<?php
-require "..\controller\header.php";
-require "navbar.php";
-?>
+
 <div class="container text-center mt-5">
         <div class="row">
             <!-- Section des technologies préférées -->
@@ -11,13 +8,13 @@ require "navbar.php";
                 </div>
                 <h2 class="section-title"><b>MES TECHNOS PREFEREES</b></h2>
                 <div class="section-content">
-                    <img src="./assets/front.png" alt="Front" class="tech-image"><br>
-                    <img src="./assets/PHP.png" alt="PHP" class="tech-image"><br>
-                    <img src="./assets/nodeJS.png" alt="Node.js" class="tech-image"><br>
-                    <img src="./assets/angular.png" alt="Angular" class="tech-image"><br>
-                    <img src="./assets/ionic.png" alt="Ionic" class="tech-image"><br>
-                    <img src="./assets/symfony.png" alt="Symfony" class="tech-image"><br>
-                    <img src="./assets/mysql.png" alt="MySQL" class="tech-image"><br>
+                    <img src="view\assets\front.png" alt="Front" class="tech-image"><br>
+                    <img src="view\assets\PHP.png" alt="PHP" class="tech-image"><br>
+                    <img src="view\assets\nodeJS.png" alt="Node.js" class="tech-image"><br>
+                    <img src="view\assets\angular.png" alt="Angular" class="tech-image"><br>
+                    <img src="view\assets\ionic.png" alt="Ionic" class="tech-image"><br>
+                    <img src="view\assets\symfony.png" alt="Symfony" class="tech-image"><br>
+                    <img src="view\assets\mysql.png" alt="MySQL" class="tech-image"><br>
                 </div>
             </div>
 
@@ -47,21 +44,21 @@ require "navbar.php";
                 <h2 class="section-title"><b>MES PASSIONS</b></h2>
 
                 <h3 class="section-content"><b>La musique</b></h3>
-                <img src="./assets/loisirs.png" alt="Musique" class="tech-image"><br>
+                <img src="view\assets\loisirs.png" alt="Musique" class="tech-image"><br>
                 <p>
                     Auteur/compositeur/interprète<br>
                     Instruments: guitare / basse / batterie
                 </p>
 
                 <h3 class="section-content"><b>Le sport</b></h3>
-                <img src="./assets/judo.png" alt="Judo" class="tech-image"><br>
+                <img src="view\assets\judo.png" alt="Judo" class="tech-image"><br>
                 <p>
                     Judo<br>
                     Escalade
                 </p>
 
                 <h3 class="section-content"><b>L'informatique</b></h3>
-                <img src="./assets/info.png" alt="Informatique" class="tech-image"><br>
+                <img src="view\assets\info.png" alt="Informatique" class="tech-image"><br>
                 <p>
                     Autodidacte: Python/HTML/CSS/JavaScript/PHP<br>
                     Jeux vidéo
@@ -69,7 +66,3 @@ require "navbar.php";
             </div>
         </div>
     </div>
-
-    <?php
-    require "../controller/footer.php";
-    ?>

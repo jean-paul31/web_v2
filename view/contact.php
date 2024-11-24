@@ -1,13 +1,10 @@
-<?php
-require "../controller/header.php";
-require "navbar.php";
-?>
+
 <div class="container mt-5">
         <h2 class="text-center mb-4">Contactez-nous</h2>
 
         <!-- Application de la classe "custom-width" pour réduire la largeur -->
         <div class="custom-width">
-            <form action="..\controller\contact.controller.php" method="POST">
+            <form action="controller\contact.controller.php" method="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label">Nom complet</label>
                     <input type="text" class="form-control" id="name" placeholder="Votre nom" name="name" required>
@@ -32,7 +29,3 @@ require "navbar.php";
             </form>
         </div>
     </div>
-    
-    <?php
-    require "../controller/footer.php";
-    ?>
