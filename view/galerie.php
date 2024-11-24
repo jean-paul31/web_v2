@@ -1,3 +1,7 @@
+<?php
+require "../controller/header.php";
+require "navbar.php";
+?>
 <!--GALERIE-->
 <br>
 <div class="container mt-5">

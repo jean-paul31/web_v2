@@ -2,6 +2,8 @@
 require "controller/header.php";
 // require "view/navbar.php";
 
+header('Location: view\home.php');
+//$url='';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
