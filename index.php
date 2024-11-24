@@ -1,34 +1,39 @@
 <?php
 require "controller/header.php";
-require "view/navbar.php";
+// require "view/navbar.php";
 
 
-$url='';
+$page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
-if (isset($_GET['url'])) {
-    $url = explode('/', $_GET['url']);
-}
 
-switch ($url) {
+switch ($page) {
     case '':
+        // Charger la page d'accueil
         require 'view/home.php';
         break;
-    case $url[0] == 'home':
+    case 'home':
+        // Charger la page d'accueil
         require 'view/home.php';
         break;
-    case $url[0] == 'propos':
-        require 'view/propos.php';
-        break;
-    case $url[0] == 'galerie':
-        require 'view/galerie.php';
-        break;
-    case $url[0] == 'contact':
+    case 'contact':
+        // Charger la page de contact
         require 'view/contact.php';
         break;
+    case 'galerie':
+        // Charger la galerie
+        require 'view/galerie.php';
+        break;
+    case 'propos':
+        // Charger la page � propos
+        require 'view/propos.php';
+        break;
     default:
-        require 'view/404.php';
+        // Page non trouv�e
+        http_response_code(404);
+        // echo "Page non trouv�e";
         break;
 }
+
 
 
 require "controller/footer.php";

@@ -20,10 +20,10 @@
     </div>
 </footer>
 <!--FOOTER-->
-<video class="video-background" autoplay muted loop playsinline>
+<!-- <video class="video-background" autoplay muted loop playsinline>
     <source src="view\assets\background\background.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>
+</video> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="view\js\main.js"></script>
 <script src="view\js\lightbox-plus-jquery.min.js"></script>

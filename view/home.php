@@ -1,9 +1,8 @@
  <!-- Conteneur principal -->
  <div class="container mt-5">
-        <h2 class="text-center mb-4">Mon portefolio</h2>
         <div class="row">
             <!-- Article 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/mediaschool.png" class="card-img-top" alt="mediaschool">
                     <div class="card-body">
@@ -15,7 +14,7 @@
             </div>
 
             <!-- Article 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/passMonde.png" class="card-img-top" alt="passMonde">
                     <div class="card-body">
@@ -27,7 +26,7 @@
             </div>
 
             <!-- Article 3 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/symblog.png" class="card-img-top" alt="symblog">
                     <div class="card-body">
@@ -38,7 +37,7 @@
             </div>
 
             <!-- Article 4 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/danielMeurois.png" class="card-img-top" alt="danielMeurois">
                     <div class="card-body">
@@ -49,7 +48,7 @@
             </div>
 
             <!-- Article 5 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/livre d'or.png" class="card-img-top" alt="livre d'or">
                     <div class="card-body">
@@ -60,7 +59,7 @@
             </div>
 
             <!-- Article 6 -->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 shadow p-3 mb-5 bg-body-tertiary rounded">
                 <div class="card h-100">
                     <img src="view/assets/portfolio/danielMeurois3.png" class="card-img-top" alt="Image article 6">
                     <div class="card-body">
